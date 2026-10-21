@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.ruzbox-build/
+.ruzbox-release/
+out/
+.env
+.env.local
+.vercel
+coverage/
+*.tsbuildinfo
+*.log
