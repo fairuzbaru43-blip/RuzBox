@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="cloud" x1="10" y1="18" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="folder" x1="14" y1="27" x2="51" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".58" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="8" y1="7" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#080D20"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="17.25" stroke="url(#edge)" stroke-opacity=".5" stroke-width="1.5"/>
+  <path d="M18.2 39.6a8.2 8.2 0 0 1-.4-16.4 12.4 12.4 0 0 1 23.7-2.7 9.7 9.7 0 0 1 4.2 18.8H18.2Z" fill="url(#cloud)" opacity=".92"/>
+  <path d="M11 29.5a3.5 3.5 0 0 1 3.5-3.5h11l4 4H47a4 4 0 0 1 4 4v13a4 4 0 0 1-4 4H15a4 4 0 0 1-4-4V29.5Z" fill="url(#folder)"/>
+  <path d="M11.5 33h39" stroke="#C4B5FD" stroke-opacity=".72" stroke-width="1.5"/>
+</svg>

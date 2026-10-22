@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "RuzBox — Your Files, Your Cloud",
-  description: "File Manager Online untuk mengelola file dengan integrasi TeraBox dan database Supabase.",
+  description: "Pengelola file online untuk menjelajahi folder bersama melalui TeraBox dengan autentikasi Supabase.",
   applicationName: "RuzBox",
 };
 
